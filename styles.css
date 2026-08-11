@@ -1,0 +1,292 @@
+
+/* GENERALES */
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #fceef3;
+}
+
+a {
+    color: #c77d98;
+}
+
+a:visited {
+    color: #c77d98;
+}
+
+a:hover {
+    color: #a95776;
+}
+
+
+/* CONTAINER */
+
+#container {
+    width: 80%;
+    margin: 0px auto;
+    box-shadow: 0px 0px 10px #d9b8c3;
+    background: white;
+}
+
+
+/* HEADER */
+
+#header {
+    height: 145px;
+    background: #fff8fa;
+}
+
+#logo {
+    padding: 20px;
+    margin-left: 20px;
+    float: left;
+}
+
+#logo img {
+    float: left;
+    height: 100px;
+}
+
+#logo a {
+    float: left;
+    font-size: 38px;
+    letter-spacing: 3px;
+    margin-top: 25px;
+    margin-left: 25px;
+    color: #c77d98;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+/* MENU */
+
+#menu {
+    clear: both;
+    background: #e8a9be;
+    color: white;
+    height: 55px;
+    border-bottom: 4px solid #d985a3;
+}
+
+#menu ul {
+    list-style: none;
+    text-decoration: none;
+    margin: 0px auto;
+    margin-left: 25px;
+}
+
+#menu ul li {
+    line-height: 55px;
+    float: left;
+    border-right: 1px solid #d58ba5;
+}
+
+#menu a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition: all 300ms;
+}
+
+#menu a:hover {
+    background: #d985a3;
+}
+
+
+/* CONTENT */
+
+#content {
+    margin: 0px auto;
+    overflow: hidden;
+    background: white;
+}
+
+
+/* BARRA LATERAL */
+
+#lateral {
+    width: 18%;
+    min-height: 500px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+    border: 1px solid #ead0da;
+    background: #fff8fa;
+}
+
+#lateral .block_aside {
+    display: block;
+    width: 90%;
+    margin: 5px auto;
+    padding: 10px;
+}
+
+#lateral h3 {
+    display: block;
+    color: #8f5269;
+    width: 100%;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    background: #f8d7e3;
+    border-bottom: 2px solid #e8a9be;
+}
+
+#lateral ul {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#lateral ul li {
+    list-style: square;
+    margin-left: 20px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+
+/* FORMULARIOS */
+
+label,
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    display: block;
+    width: 95%;
+    margin-top: 4px;
+    margin-bottom: 7px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    border: 1px solid #e4c4cf;
+    box-shadow: 0px 0px 2px #ead9df inset;
+    background: white;
+    padding: 5px;
+    color: gray;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus {
+    border: 4px solid #d985a3;
+    color: black;
+}
+
+input[type="button"],
+input[type="submit"],
+button,
+.button {
+    display: block;
+    border-radius: 5px;
+    width: auto;
+    padding: 7px 12px;
+    color: white;
+    background: #d985a3;
+    border: 1px solid #c77d98;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+}
+
+.button {
+    background: #d985a3;
+    color: white !important;
+    text-decoration: none;
+}
+
+.button:hover {
+    background: #c77d98;
+}
+
+
+/* CENTRAL */
+
+#central {
+    width: 72%;
+    min-height: 500px;
+    float: right;
+    border-left: 1px solid #ead0da;
+    box-shadow: -5px -1px 5px #f1e2e7;
+    padding: 25px;
+}
+
+#central h1 {
+    font-size: 24px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #8f5269;
+    border-bottom: 1px solid #ead0da;
+    margin-bottom: 20px;
+    padding: 20px;
+    padding-top: 0px;
+}
+
+
+/* PRODUCTOS */
+
+.product {
+    width: 30%;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.product img {
+    height: 170px;
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.product h2 {
+    font-size: 18px;
+    color: #704354;
+    margin-bottom: 10px;
+}
+
+.product p {
+    font-weight: bold;
+    color: #a95776;
+    margin-bottom: 10px;
+}
+
+.product a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* FOOTER */
+
+#footer {
+    clear: both;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    background: #d985a3;
+    border-top: 4px solid #c77d98;
+}
